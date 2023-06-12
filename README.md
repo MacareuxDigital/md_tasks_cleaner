@@ -16,7 +16,7 @@ The Macareux Tasks Cleaner (md_tasks_cleaner) is a Concrete CMS package that pro
 To clear the Symfony Messenger messages of automated tasks from the database, use the following command:
 
 ```
-php concrete/bin/concrete md:tasks:clear
+concrete/bin/concrete md:tasks:clear
 ```
 
 This command will delete the task-related records from the following tables:
